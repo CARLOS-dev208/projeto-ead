@@ -12,7 +12,7 @@ public class EstruturaEstatica<T> {
 	}
 
 	public EstruturaEstatica(){
-		this(3);
+		this(10);
 	}
 	
 	public boolean isEmpty(){
@@ -56,6 +56,7 @@ public class EstruturaEstatica<T> {
 		}
 		tamanho--;
 	}
+	
 
 	@SuppressWarnings("unchecked")
 	private void aumentaCapacidade(){
